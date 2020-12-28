@@ -13,6 +13,9 @@ link2:
 In some cases Relay5 (USB) ON/OFF is inverted. You can use this configuration:
 template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":0,"BASE":18}'
 
+In some cases the GPIOs are configured in different order, try this:
+template: {"NAME":"AOFO C379 4AC+4USB UK ","GPIO":[0,158,0,17,24,23,0,0,21,25,22,0,0],"FLAG":0,"BASE":18}
+
 
 
 
